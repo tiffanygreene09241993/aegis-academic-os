@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Academic OS — Graduation Milestone Engine",
+  "description": "Executive academic progression console for Liberty University BS-CJ: live graduation countdown, credit roadmap telemetry, honors distinctions, and interactive conferral simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
