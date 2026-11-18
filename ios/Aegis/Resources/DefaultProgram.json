@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "student": {
+    "name": "Tiffany",
+    "institution": "Liberty University",
+    "school": "Helms School of Government"
+  },
+  "degree": "B.S. in Criminal Justice",
+  "cognate": "Criminal Psychology",
+  "minor": "Public Administration",
+  "requiredCredits": 121,
+  "unitemizedEarnedCredits": 0,
+  "nonApplicableCredits": 24,
+  "cumulativeGPA": 4.0,
+  "gpaScale": 4.0,
+  "latinHonors": [
+    {
+      "name": "Summa Cum Laude",
+      "minimumGPA": 3.9
+    },
+    {
+      "name": "Magna Cum Laude",
+      "minimumGPA": 3.7
+    },
+    {
+      "name": "Cum Laude",
+      "minimumGPA": 3.5
+    }
+  ],
+  "commencement": "2027-08-20T04:00:00Z",
+  "commencementTimeZoneID": "America/New_York",
+  "categories": [
+    {
+      "id": "major",
+      "name": "Major Courses",
+      "summary": "Grade of C minimum required for all courses in the major. Includes the Criminal Psychology cognate.",
+      "requiredCredits": 54,
+      "symbol": "building.columns",
+      "includes": [
+        "cognate"
+      ]
+    },
+    {
+      "id": "cognate",
+      "name": "Criminal Psychology Cognate",
+      "summary": "Part of the major (counts toward its 54 credits).",
+      "requiredCredits": 15,
+      "symbol": "brain.head.profile"
+    },
+    {
+      "id": "minor",
+      "name": "Public Administration Minor",
+      "summary": "25% of the minor must be taken through Liberty University. Minimum grade of C required for all upper-level courses in the minor.",
+      "requiredCredits": 15,
+      "symbol": "person.3"
+    },
+    {
+      "id": "gen-ed",
+      "name": "General Education",
+      "summary": "Complete per the audit, which doesn't itemize these. RLGN 104 and THEO 104 are waived (60+ transfer credits). Course placement here is inferred from the transcript.",
+      "symbol": "books.vertical"
+    },
+    {
+      "id": "electives",
+      "name": "Electives & Transfer",
+      "summary": "Transfer electives from Ultimate Medical Academy. The audit applies only part of these credits to the degree.",
+      "symbol": "square.grid.2x2"
+    }
+  ],
+  "courses": [
+    {
+      "id": "31D8A9CC-5522-5796-B1B3-4C6926D49FF5",
+      "code": "BIOL 101",
+      "title": "Principles of Biology",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "gen-ed",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "0D5FB05C-D8BE-5A79-A78D-B18680403AA9",
+      "code": "ENGL 101",
+      "title": "Composition & Rhetoric",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "gen-ed",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "BA77B198-2BA2-5855-B80D-85980736C6B6",
+      "code": "HLTH 1XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "805FC3CD-2F4B-5FE4-9EB5-CDBC0E81F72C",
+      "code": "HLTH 1XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "76F55A91-2EC0-5DCB-86B1-51B52019C200",
+      "code": "HLTH 1XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "3AEE0AFC-3C07-588A-B99C-598EC2BE332B",
+      "code": "HLTH 1XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "E9B0231B-B5A9-52A2-95F7-118B72F8D5DF",
+      "code": "HLTH 2XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Summer 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "89351189-5B15-5F1A-A295-F906A08DC522",
+      "code": "HLTH 2XX",
+      "title": "Health Elective (lower level)",
+      "credits": 5.5,
+      "status": "completed",
+      "term": "Fall 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "F76E2F78-810C-580A-B139-EAC8FF915A48",
+      "code": "HLTH 2XX",
+      "title": "Health Elective (lower level)",
+      "credits": 3.5,
+      "status": "completed",
+      "term": "Fall 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "95D4EF4E-70AD-5532-BD09-F6476C0588F4",
+      "code": "MATH 115",
+      "title": "Mathematics for Liberal Arts",
+      "credits": 3,
+      "status": "completed",
+      "term": "Fall 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "gen-ed",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "5591650A-974A-541D-B69F-F6107A01CBFD",
+      "code": "PHIL 2XX",
+      "title": "Philosophy Elective (lower level)",
+      "credits": 3,
+      "status": "completed",
+      "term": "Fall 2016 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "gen-ed",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "8E7CEBC0-E1C4-5979-B4B9-08BF907CD06F",
+      "code": "HLTH 2XX",
+      "title": "Health Elective (lower level)",
+      "credits": 4.5,
+      "status": "completed",
+      "term": "Spring 2017 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "9637EE20-1737-5D85-96A7-49B14655A8C7",
+      "code": "PSYC 2XX",
+      "title": "Psychology Elective (lower level)",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2017 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "E511E5D6-02B0-5755-AD13-E3387CBAD425",
+      "code": "SOCI 200",
+      "title": "Introduction to Sociology",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2017 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "gen-ed",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "90C138D1-3CFD-5192-86D7-7EBB656FE335",
+      "code": "BUSI 300",
+      "title": "Business Communications",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2017 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "F9EB9AEF-A20C-59B1-B9F0-D95C0842B32A",
+      "code": "HLTH 2XX",
+      "title": "Health Elective (lower level)",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2017 · Transfer (Ultimate Medical Academy)",
+      "categoryID": "electives",
+      "source": "transfer",
+      "grade": "P"
+    },
+    {
+      "id": "4F2A0262-E609-596C-BD30-0D31C3A83749",
+      "code": "BIBL 104",
+      "title": "Survey of Old & New Testament",
+      "credits": 4,
+      "status": "completed",
+      "term": "Spring 2026",
+      "categoryID": "gen-ed",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "3CFBAAC3-37FF-5D2C-ADD8-A0C9D56767E8",
+      "code": "CJUS 200",
+      "title": "Introduction to Criminal Justice",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2026",
+      "categoryID": "major",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "8CA1CC6F-14F3-59DA-B4C2-F0E9A6DF2537",
+      "code": "GOVT 200",
+      "title": "Constitutional Government & Free Enterprise",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2026",
+      "categoryID": "gen-ed",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "9A08E1CB-C10F-5311-98D7-D877343E2BB0",
+      "code": "GOVT 220",
+      "title": "American Government",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2026",
+      "categoryID": "gen-ed",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "CF46F388-1538-595E-9949-0FE37C8BBF1B",
+      "code": "WRSP 101",
+      "title": "Introduction to Worship Studies",
+      "credits": 3,
+      "status": "completed",
+      "term": "Spring 2026",
+      "categoryID": "gen-ed",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "2E396525-2E2D-5D51-A9D1-DFA6DF89AF05",
+      "code": "CJUS 230",
+      "title": "Criminal Justice Writing & Research",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2026",
+      "categoryID": "major",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "74EC3E7D-8C71-51BB-85BF-6539C500BDC4",
+      "code": "HIUS 221",
+      "title": "Survey of American History I",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2026",
+      "categoryID": "gen-ed",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "CF6EA05C-0AA1-55E9-8089-65C78176C1D3",
+      "code": "PADM 360",
+      "title": "Introduction to Public Administration",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2026",
+      "categoryID": "minor",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "B9E7ED9A-D720-5C8E-80BC-42C3F121A25A",
+      "code": "PADM 462",
+      "title": "Public Finance & Budgeting",
+      "credits": 3,
+      "status": "completed",
+      "term": "Summer 2026",
+      "categoryID": "minor",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "E25545CD-6460-5EF9-95CF-4BEA4A6D6DC0",
+      "code": "CJUS 231",
+      "title": "Criminal Justice Report Writing",
+      "credits": 3,
+      "status": "completed",
+      "term": "Fall 2026",
+      "categoryID": "major",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "42A3CD4E-170B-5E9C-97EF-DB8D2037FA9B",
+      "code": "CJUS 300",
+      "title": "Administration of Justice Organizations",
+      "credits": 3,
+      "status": "completed",
+      "term": "Fall 2026",
+      "categoryID": "major",
+      "source": "institutional",
+      "grade": "A"
+    },
+    {
+      "id": "B42693F5-E630-52A5-A03F-6FF6B8754CDF",
+      "code": "CJUS 410",
+      "title": "Constitutional Criminal Procedure",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Fall 2026",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "AB6D2710-EDF0-5BCF-B6C6-DCEE27F0849F",
+      "code": "GOVT 302",
+      "title": "Modern Political and Economic Thought",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Fall 2026",
+      "categoryID": "minor",
+      "source": "institutional"
+    },
+    {
+      "id": "6A92FFA3-A02A-5CC3-B204-A2E4FC6E76BD",
+      "code": "CJUS 310",
+      "title": "Juvenile Justice",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "4DA24378-E310-562B-8352-EE5586E9B33A",
+      "code": "CJUS 330",
+      "title": "Judicial Process",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "E15CD799-0502-5BAC-828F-E468B2EB85DA",
+      "code": "CJUS 400",
+      "title": "Criminal Law",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "5D6EE6F4-C469-5FD6-ABBA-A55398D1A397",
+      "code": "PADM 475",
+      "title": "Advanced Public Administration",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "minor",
+      "source": "institutional"
+    },
+    {
+      "id": "FE6FCB58-417D-5397-8140-F25F855DC8E6",
+      "code": "PSYC 305",
+      "title": "Overview, Theory & Treatment of Substance Abuse",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "cognate",
+      "source": "institutional"
+    },
+    {
+      "id": "39597318-EF4B-545D-8205-996AE1BB1D40",
+      "code": "PSYC 317",
+      "title": "Crisis Intervention",
+      "credits": 3,
+      "status": "inProgress",
+      "term": "Spring 2027",
+      "categoryID": "cognate",
+      "source": "institutional"
+    },
+    {
+      "id": "A4FFD0F4-7760-5ED4-B040-135593AB3154",
+      "code": "CJUS 320",
+      "title": "Corrections",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "FAE15C8A-E775-5B0F-9074-418CDAB3C56D",
+      "code": "CJUS 340",
+      "title": "Criminology",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "B75EB2D2-0FC7-5702-BC5D-08E0019ABE11",
+      "code": "CJUS 350",
+      "title": "Criminal Justice Ethics",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "2B284870-5208-5B66-BF22-1AEE94F65860",
+      "code": "CJUS 420",
+      "title": "Criminal Investigations I",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "09DC38B1-BDD7-5920-B120-6F4801DBA4DB",
+      "code": "GOVT 480",
+      "title": "Terrorism",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "major",
+      "source": "institutional"
+    },
+    {
+      "id": "2DFF3591-E064-540D-B6EB-F65CC2A0B3BC",
+      "code": "PSYC 320",
+      "title": "Behavior Management",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "cognate",
+      "source": "institutional"
+    },
+    {
+      "id": "6F743304-D9EF-57E3-951D-2A238B12D6DD",
+      "code": "PSYC 430",
+      "title": "Abnormal Psychology",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "cognate",
+      "source": "institutional"
+    },
+    {
+      "id": "640F54BC-4F74-5FDF-B892-D0E7DF0FBC09",
+      "code": "PSYC 475",
+      "title": "Psychology of Criminal Behavior",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "cognate",
+      "source": "institutional"
+    },
+    {
+      "id": "EEFB8DEA-CD26-584E-9F59-716CAC2B1D80",
+      "code": "PADM 485",
+      "title": "Public Administration Leadership and Community Engagement",
+      "credits": 3,
+      "status": "planned",
+      "term": "Not yet scheduled",
+      "categoryID": "minor",
+      "source": "institutional"
+    }
+  ],
+  "honors": [
+    {
+      "id": "onl",
+      "name": "Omega Nu Lambda",
+      "chapter": "Alpha Chapter",
+      "discipline": "Collegiate Academic Excellence",
+      "status": "Inducted",
+      "inducted": "Spring 2026",
+      "requirement": "Minimum 3.80 cumulative GPA",
+      "summary": "Recognizes academic achievement and provides community for outstanding undergraduate scholars.",
+      "regaliaCords": "Navy blue and silver honor cords"
+    },
+    {
+      "id": "sword-shield",
+      "name": "Order of the Sword & Shield",
+      "chapter": "Omicron Sigma Sigma Chapter",
+      "discipline": "Homeland Security, Intelligence & Criminal Justice",
+      "status": "Inducted",
+      "inducted": "Fall 2026",
+      "requirement": "3.50+ disciplinary GPA (maintained 4.00)",
+      "summary": "National academic honor society for homeland security, intelligence, emergency management and criminal justice disciplines.",
+      "regaliaCords": "Royal blue and metallic gold cords"
+    },
+    {
+      "id": "deans-list",
+      "name": "Dean's List",
+      "status": "Awarded",
+      "inducted": "Spring 2026 · Summer 2026",
+      "discipline": "Liberty University",
+      "summary": "Listed on the unofficial transcript for both terms."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "fall-26",
+      "title": "Finish Fall 2026 courses",
+      "detail": "CJUS 410 · GOVT 302 (6 credits)",
+      "isComplete": false,
+      "symbol": "leaf"
+    },
+    {
+      "id": "spring-27",
+      "title": "Finish Spring 2027 courses",
+      "detail": "6 courses · 18 credits",
+      "isComplete": false,
+      "symbol": "calendar"
+    },
+    {
+      "id": "still-needed",
+      "title": "Take the 9 remaining courses",
+      "detail": "27 credits: 5 major, 3 cognate, 1 minor",
+      "isComplete": false,
+      "symbol": "checklist"
+    },
+    {
+      "id": "dca",
+      "title": "Submit Degree Completion Application",
+      "detail": "Due within your last semester before graduation",
+      "isComplete": false,
+      "symbol": "doc.text"
+    },
+    {
+      "id": "commencement",
+      "title": "Commencement",
+      "detail": "Liberty University · Class of 2027",
+      "date": "2027-08-20T04:00:00Z",
+      "isComplete": false,
+      "symbol": "graduationcap"
+    }
+  ],
+  "regalia": [
+    {
+      "id": "mortarboard",
+      "item": "Champagne-gold mortarboard",
+      "distinction": "Commencement milestone emblem",
+      "status": "Ready for conferral",
+      "detail": "Left-turn tassel with 2027 charm"
+    },
+    {
+      "id": "stole",
+      "item": "Liberty crimson & white stole",
+      "distinction": "Institutional baccalaureate regalia",
+      "status": "Allocated",
+      "detail": "Embroidered Liberty flame insignia"
+    },
+    {
+      "id": "medallion",
+      "item": "Summa Cum Laude medallion",
+      "distinction": "Highest academic honors",
+      "status": "Projected (GPA 4.00)",
+      "detail": "Navy and champagne-gold ribbon"
+    },
+    {
+      "id": "cords",
+      "item": "Dual honor society cords",
+      "distinction": "Omega Nu Lambda & Sword & Shield",
+      "status": "Awarded",
+      "detail": "Royal blue, navy, silver and gold braids"
+    }
+  ],
+  "graduationRequirements": [
+    {
+      "id": "hours",
+      "name": "Minimum hours overall",
+      "current": "94 credits",
+      "required": "120 credits",
+      "isMet": false
+    },
+    {
+      "id": "upper",
+      "name": "Minimum upper-level credits",
+      "current": "30 credits",
+      "required": "30 credits",
+      "isMet": true
+    },
+    {
+      "id": "lu-major",
+      "name": "Minimum Liberty credits in major",
+      "current": "3 credits",
+      "required": "3 credits",
+      "isMet": true
+    },
+    {
+      "id": "lu",
+      "name": "Minimum Liberty credits",
+      "current": "31 credits",
+      "required": "30 credits",
+      "isMet": true
+    },
+    {
+      "id": "gpa",
+      "name": "Minimum graduation GPA",
+      "current": "4.0 GPA",
+      "required": "2.0 GPA",
+      "isMet": true
+    },
+    {
+      "id": "dca",
+      "name": "Degree Completion Application",
+      "required": "Submit within the last semester before your anticipated graduation date",
+      "isMet": false
+    }
+  ],
+  "dataNote": "Built from the Liberty degree audit (Nov 11, 2026) and unofficial transcript. Student-maintained; not an official transcript."
+}

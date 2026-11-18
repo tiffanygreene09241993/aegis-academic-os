@@ -1,0 +1,67 @@
+name: Aegis
+options:
+  bundleIdPrefix: com.tiffanygreene
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: ""            # set your Apple team ID here or in Xcode > Signing
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"     # iPhone only
+targets:
+  Aegis:
+    type: application
+    platform: iOS
+    sources:
+      - path: Aegis
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tiffanygreene.aegis
+        PRODUCT_NAME: Aegis
+        INFOPLIST_FILE: Aegis/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Aegis/Aegis.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+    dependencies:
+      - target: AegisWidget
+        embed: true
+  AegisWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: AegisWidget
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tiffanygreene.aegis.widget
+        PRODUCT_NAME: AegisWidget
+        INFOPLIST_FILE: AegisWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: AegisWidget/AegisWidget.entitlements
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME: WidgetBackground
+        SKIP_INSTALL: YES
+  AegisTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AegisTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.tiffanygreene.aegis.tests
+    dependencies:
+      - target: Aegis
+schemes:
+  Aegis:
+    build:
+      targets:
+        Aegis: all
+        AegisTests: [test]
+    test:
+      targets:
+        - AegisTests
